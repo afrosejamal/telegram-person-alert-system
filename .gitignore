@@ -1,0 +1,16 @@
+# Secrets — never commit this
+.env
+
+# Auto-generated at runtime
+person_alerts/
+
+# YOLO weights (large binary, link in README instead)
+*.weights
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
